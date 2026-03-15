@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+venv/
+env/
+
+# SQLite Database (generated at runtime)
+database/logistics.db
+
+# Processed outputs (generated at runtime)
+data/processed/optimized_routes.csv
+data/processed/logistics_map.html
+
+# PuLP solver files
+*.lp
+*.mps
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
